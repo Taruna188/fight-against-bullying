@@ -12,6 +12,7 @@
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
+		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.20.4",
 		"esbuild-wasm": "^0.18.9",
 		"svelte": "^4.0.0",
