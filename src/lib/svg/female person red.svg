@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="6.8449001mm"
+   height="12.28781mm"
+   viewBox="0 0 6.8449001 12.28781"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="female person.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="12.003911"
+     inkscape:cx="34.280493"
+     inkscape:cy="6.956066"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-98.10559,-142.34583)">
+    <path
+       id="path362"
+       d="m 99.935849,144.58795 c -0.978712,-0.2177 -1.152913,0.75289 -1.696297,0.81237 0.479072,0.42972 1.607679,0.17942 1.696297,-0.81237 z m 3.183991,0 c 0.97868,-0.2177 1.15288,0.75289 1.6962,0.81237 -0.47901,0.42972 -1.60772,0.17942 -1.6962,-0.81237 z m -1.5918,-2.24212 c 0.87771,0 1.58951,0.7118 1.58951,1.58979 0,0.87803 -0.7118,1.58983 -1.58951,1.58983 -0.8781,0 -1.589898,-0.7118 -1.589898,-1.58983 0,-0.87799 0.711798,-1.58979 1.589898,-1.58979 z m 1.57,4.84752 0.699,4.44648 h -0.7003 v 2.36143 c 0,0.34787 -0.28431,0.63238 -0.63222,0.63238 v 0 c -0.34787,0 -0.63207,-0.28451 -0.63207,-0.63238 v -2.36143 h -0.60882 v 2.36143 c 0,0.34787 -0.2843,0.63238 -0.63218,0.63238 v 0 c -0.34823,0 -0.632424,-0.28451 -0.632424,-0.63238 v -2.36143 h -0.699981 l 0.698993,-4.44648 c -0.58801,0.629 -0.759107,1.804 -0.798089,2.60438 -0.03581,0.73382 -0.989929,0.74429 -1.0408,0 -0.127917,-1.8639 0.650099,-3.71168 2.297391,-4.28247 0.31429,0.22158 0.69769,0.35168 1.1115,0.35168 0.4137,0 0.7971,-0.1301 1.1115,-0.35168 1.64729,0.57079 2.42531,2.41829 2.29739,4.28247 -0.0508,0.74429 -1.00499,0.73382 -1.0408,0 -0.039,-0.80038 -0.21008,-1.97538 -0.79809,-2.60438"
+       style="fill:red;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.352778" />
+  </g>
+</svg>
