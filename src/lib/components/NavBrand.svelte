@@ -1,4 +1,8 @@
 
+<script lang="ts">
+    import { base } from "$app/paths";
+</script>
+
 <style>
     #body {
         width: max-content;
@@ -34,6 +38,6 @@
 
 </style>
 
-<a id="body" href="/">
+<a id="body" href="{base}/">
     Fight. Against. Bullying.
 </a>

@@ -81,6 +81,7 @@ declare module '$env/static/private' {
 	export const npm_package_dependencies_typescript: string;
 	export const npm_package_description: string;
 	export const npm_package_devDependencies_esbuild_wasm: string;
+	export const npm_package_devDependencies_gh_pages: string;
 	export const npm_package_devDependencies_svelte: string;
 	export const npm_package_devDependencies_vite: string;
 	export const npm_package_devDependencies__sveltejs_adapter_static: string;
@@ -222,6 +223,7 @@ declare module '$env/dynamic/private' {
 		npm_package_dependencies_typescript: string;
 		npm_package_description: string;
 		npm_package_devDependencies_esbuild_wasm: string;
+		npm_package_devDependencies_gh_pages: string;
 		npm_package_devDependencies_svelte: string;
 		npm_package_devDependencies_vite: string;
 		npm_package_devDependencies__sveltejs_adapter_static: string;

@@ -1,4 +1,6 @@
 <script lang="ts">
+    import { base } from "$app/paths";
+
     import NavBrand from "$lib/components/NavBrand.svelte";
     import NavItem from "$lib/components/NavItem.svelte";
     import NavItemList from "$lib/components/NavItemList.svelte";
@@ -16,17 +18,14 @@
         <NavBrand></NavBrand>
         <NavItemList>
             <NavItem>
-                <NavLink href="/">Home</NavLink>
+                <NavLink href="{base}/">Home</NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="/people-involved">People Involved</NavLink>
-            </NavItem>
-            <!-- <NavItem>
-                <NavLink href="/about-us">About Us</NavLink>
+                <NavLink href="{base}/people-involved">People Involved</NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="/contact">Contact</NavLink>
-            </NavItem> -->
+                <NavLink href="{base}/about-us">About Us</NavLink>
+            </NavItem>
         </NavItemList>
     </Navbar>
 </Header>
@@ -46,7 +45,7 @@
     <Article>
         <div id="footer-credit">
             <b>Fight. Against. Bullying.</b> <br>
-            Presentation by Kelompok Profile Pancasila 3
+            Website Presentation by Kelompok Profile Pancasila 3
         </div>
     </Article>
 </Footer>

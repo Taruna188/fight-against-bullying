@@ -2,7 +2,7 @@
     import { page } from "$app/stores";
 
     import EvenBox from "$lib/components/EvenBox.svelte";
-    import ShowArticle from "$lib/components/ShowArticle.svelte";
+    import ShowArticle from "$lib/components/TopBottomPad.svelte";
 
 </script>
 

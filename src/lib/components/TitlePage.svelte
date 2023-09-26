@@ -1,5 +1,6 @@
 <script>
-    import ShowArticle from "./ShowArticle.svelte";
+    import Article from "./Article.svelte";
+import ShowArticle from "./TopBottomPad.svelte";
 
 </script>
 
@@ -23,8 +24,6 @@
     }
 </style>
 
-<ShowArticle --bg-color="blueviolet">
-    <div>
-        <slot></slot>
-    </div>
-</ShowArticle>
+<div>
+    <slot></slot>
+</div>

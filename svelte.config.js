@@ -6,6 +6,9 @@ export default {
     preprocess: sveltePreprocess(),
 
     kit: {
-        adapter: adapter()
+        adapter: adapter(),
+        paths: {
+            base: process.env.NODE_ENV === 'production' ? '/fight-against-bullying' : '',
+        }
     }
 };

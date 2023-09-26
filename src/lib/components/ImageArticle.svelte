@@ -1,6 +1,9 @@
 
 <script lang="ts">
+    import { onMount } from "svelte";
+
     export let src: string;
+    export let reverse = false;
 </script>
 
 <style>
@@ -10,28 +13,38 @@
         background-color: var(--bg-color);
         color: var(--font-color);
 
-        grid-template-columns: 4fr [desc] 5fr [img-start] 5fr 4fr [img-end];
-        justify-content: center;
+        grid-template-columns: 4fr 5fr 5fr 4fr;
     }
 
     #description {
         padding: 160px 0 160px 0;
-        grid-area: desc;
+        grid-column: 2;
+    }
+
+    .reverse #description {
+        grid-column: 3;
     }
 
     #image {
-        grid-area: img;
-        padding-left: 80px;
+        padding: 0 0 0 80px;
+        grid-column: 3 / 5;
         align-self: center;
     }
 
+    .reverse #image {
+        padding: 0 80px 0 0;
+        grid-row: 1;
+        grid-column: 1 / 3;
+        justify-self: right;
+    }
+
     #image > img {
-        width: 800px;
+        width: var(--image-width, 800px);
     }
 
     @media screen and (max-width: 1800px) {
         #body {
-            grid-template-columns: 2fr [desc] 5fr [img-start] 5fr 2fr [img-end];
+            grid-template-columns: 2fr 5fr 5fr 2fr;
         }
 
         #image > img {
@@ -41,7 +54,7 @@
 
     @media screen and (max-width: 1200px) {
         #body {
-            grid-template-columns: 1fr [desc] 5fr [img-start] 5fr 1fr [img-end];
+            grid-template-columns: 1fr 5fr 5fr 1fr;
         }
     }
 
@@ -67,7 +80,7 @@
     }
 </style>
 
-<div id="body">
+<div id="body" class:reverse={reverse}>
     <div id="description">
         <slot></slot>
     </div>

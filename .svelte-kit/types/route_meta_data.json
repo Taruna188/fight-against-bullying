@@ -1,4 +1,12 @@
 {
-	"/": [],
-	"/people-involved": []
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/about-us": [
+		"src/routes/+layout.ts"
+	],
+	"/people-involved": [
+		"src/routes/+layout.ts"
+	]
 }
