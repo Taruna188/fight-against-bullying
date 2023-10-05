@@ -39,7 +39,7 @@ declare module '$env/static/private' {
 	export const ComSpec: string;
 	export const DriverData: string;
 	export const EDITOR: string;
-	export const EFC_11624: string;
+	export const EFC_6884: string;
 	export const FPS_BROWSER_APP_PROFILE_STRING: string;
 	export const FPS_BROWSER_USER_PROFILE_STRING: string;
 	export const GIT_ASKPASS: string;
@@ -92,6 +92,7 @@ declare module '$env/static/private' {
 	export const npm_package_name: string;
 	export const npm_package_scripts_build: string;
 	export const npm_package_scripts_dev: string;
+	export const npm_package_scripts_pages: string;
 	export const npm_package_scripts_preview: string;
 	export const npm_package_type: string;
 	export const npm_package_version: string;
@@ -181,7 +182,7 @@ declare module '$env/dynamic/private' {
 		ComSpec: string;
 		DriverData: string;
 		EDITOR: string;
-		EFC_11624: string;
+		EFC_6884: string;
 		FPS_BROWSER_APP_PROFILE_STRING: string;
 		FPS_BROWSER_USER_PROFILE_STRING: string;
 		GIT_ASKPASS: string;
@@ -234,6 +235,7 @@ declare module '$env/dynamic/private' {
 		npm_package_name: string;
 		npm_package_scripts_build: string;
 		npm_package_scripts_dev: string;
+		npm_package_scripts_pages: string;
 		npm_package_scripts_preview: string;
 		npm_package_type: string;
 		npm_package_version: string;
