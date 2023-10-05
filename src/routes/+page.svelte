@@ -25,6 +25,7 @@
     import Article from "$lib/components/Article.svelte";
     import TextMedium from "$lib/components/TextMedium.svelte";
     import Background from "$lib/components/Background.svelte";
+    import Logo from "$lib/components/Logo.svelte";
 </script>
 
 <svelte:head>
@@ -82,12 +83,14 @@
     <Article>
         <TopBottomPad --padding="200px">
             <EvenBox>
-                <HMargin --margin="20px">
-                    <Brand --max-font-size="3rem"></Brand>
-                    <TextMedium>Kami akan berupaya keras untuk mencegah masalah pembullyan sebelum terjadi dengan memberikan pendidikan baik siswa maupun guru tentang dampak negatif dari pembullyan itu sendiri.</TextMedium>
-                </HMargin>
+                <GridBox>
+                    <HMargin --margin="20px">
+                        <Brand --max-font-size="3rem"></Brand>
+                        <TextMedium>Kami akan berupaya keras untuk mencegah masalah pembullyan sebelum terjadi dengan memberikan pendidikan baik siswa maupun guru tentang dampak negatif dari pembullyan itu sendiri.</TextMedium>
+                    </HMargin>
+                </GridBox>
                 <div>
-                    <TextBig>logo here, logo here, logo here, logo here, logo here, logo here, logo here, logo here, logo here, logo here, logo here, logo here.</TextBig>
+                    <Logo></Logo>
                 </div>
             </EvenBox>
         </TopBottomPad>

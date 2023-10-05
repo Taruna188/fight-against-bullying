@@ -7,7 +7,7 @@
 		"dev": "npx vite dev",
 		"build": "npx vite build",
 		"preview": "npx vite preview",
-		"pages": "pnpm build && pnpx gh-pages -d ./build"
+		"pages": "pnpm build && echo.> ./build/.nojekyll && echo fab.belajar.bio > ./build/CNAME && pnpx gh-pages -t -d ./build"
 	},
 	"keywords": [],
 	"author": "",
