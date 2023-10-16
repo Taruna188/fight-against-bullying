@@ -10,6 +10,7 @@
 <style>
     #body {
         display: flex;
+        flex-wrap: wrap;
     }
     #profile {
         margin-right: 60px;
