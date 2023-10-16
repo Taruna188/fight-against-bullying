@@ -12,6 +12,15 @@
 
 </script>
 
+<style>
+    @media screen and (max-width: 900px) {
+        iframe {
+            width: 360px;
+            height: 240px;
+        }
+    }
+</style>
+
 <Background
     image={CloudBackground}
     size="cover">

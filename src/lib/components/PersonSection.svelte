@@ -22,6 +22,12 @@
     h1 {
         border-bottom: solid violet 4px;
     }
+
+    @media screen and (max-width: 900px) {
+        #body {
+            align-content: center;
+        }
+    }
 </style>
 
 <div id="body">
