@@ -25,20 +25,20 @@
         grid-column: 3;
     }
 
-    #image-container {
+    #video-container {
         padding: 0 0 0 80px;
         grid-column: 3 / 5;
         align-self: center;
     }
 
-    .reverse #image-container {
+    .reverse #video-container {
         padding: 0 80px 0 0;
         grid-row: 1;
         grid-column: 1 / 3;
         justify-self: right;
     }
 
-    #image-container > img {
+    #video-container > video {
         width: var(--width, 800px);
         height: var(--height, auto);
     }
@@ -49,7 +49,7 @@
             grid-template-columns: 2fr 5fr 5fr 2fr;
         }
 
-        #image-container > img {
+        #video-container > video {
             width: clamp(200px, 40vw, 600px);
         }
     }
@@ -65,18 +65,18 @@
             grid-template-columns: none;
         }
         
-        #image-container, #description,
-        .reverse #image-container, .reverse #description {
+        #video-container, #description,
+        .reverse #video-container, .reverse #description {
             grid-column: 1;
         }
 
-        #image-container, .reverse #image-container {
+        #video-container, .reverse #video-container {
             grid-row: 1;
             justify-self: center;
             padding: 40px 0 0;
         }
 
-        #image-container > img {
+        #video-container > video {
             width: clamp(260px, 90vw, 600px);
         }
 
@@ -91,7 +91,8 @@
     <div id="description">
         <slot></slot>
     </div>
-    <div id="image-container">
-        <img {src} alt="">
+    <div id="video-container">
+        <!-- svelte-ignore a11y-media-has-caption -->
+        <video {src}></video>
     </div>
 </div>

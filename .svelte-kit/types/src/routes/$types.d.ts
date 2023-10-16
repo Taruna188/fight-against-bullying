@@ -10,7 +10,7 @@ type EnsureDefined<T> = T extends null | undefined ? {} : T;
 type OptionalUnion<U extends Record<string, any>, A extends keyof U = U extends U ? keyof U : never> = U extends unknown ? { [P in Exclude<A, keyof U>]?: never } & U : never;
 export type Snapshot<T = any> = Kit.Snapshot<T>;
 type PageParentData = EnsureDefined<LayoutData>;
-type LayoutRouteId = RouteId | "/" | "/about-us" | "/people-involved" | null
+type LayoutRouteId = RouteId | "/" | "/hasil-wawancara" | "/perpustakaan/apa-itu-bullying" | "/perpustakaan/apa-penyebab-bullying" | "/perpustakaan/cara-mengendalikan-pembullyian" | "/perpustakaan/dampak-bullying-bagi-korban" | "/perpustakaan/statistika-bullying" | "/tentang-kami" | "/tokoh-wawancara" | null
 type LayoutParams = RouteParams & {  }
 type LayoutParentData = EnsureDefined<{}>;
 

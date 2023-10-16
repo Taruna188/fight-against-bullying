@@ -22,14 +22,14 @@
         padding: 0 6px 2px 4px;
     }
 
-    @media (prefers-color-scheme: dark) {
+    /* @media (prefers-color-scheme: dark) { */
         #body {
             background: white;
             color: black;
         }
-    }
+    /* } */
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 900px) {
         #body {
             grid-column: 2;
             justify-self: center;

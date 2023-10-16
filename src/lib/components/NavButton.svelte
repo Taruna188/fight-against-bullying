@@ -10,16 +10,16 @@
         padding: 0;
         margin: 0;
         align-self: center;
-        background: transparent;
+        background: white;
     }
 
-    button > object {
+    button > img {
         width: 38px;
         height: 38px;
         margin: 0;
     }
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 900px) {
         button {
             display: block;
             grid-column: 1;
@@ -27,6 +27,6 @@
     }
 </style>
 
-<button>
-    <object title="menu bar" data={MenuBar}></object>
+<button on:click>
+    <img title="menu bar" src={MenuBar}>
 </button>

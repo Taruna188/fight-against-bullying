@@ -9,6 +9,8 @@
     import PatchSvg from "$lib/svg/patch.svg";
     import ArrowRotatedSvg from "$lib/svg/arrow rotated.svg";
     import InterviewIllust from "$lib/assets/interview illust.png";
+    import FabLogo from "$lib/assets/fab_logo.png";
+    import BullyingIllust from "$lib/assets/apa-itu-bullying-illust.png";
 
     // components
     import HeroArticle from "$lib/components/HeroArticle.svelte";
@@ -26,6 +28,8 @@
     import TextMedium from "$lib/components/TextMedium.svelte";
     import Background from "$lib/components/Background.svelte";
     import Logo from "$lib/components/Logo.svelte";
+    import PageAnchor from "$lib/components/PageAnchor.svelte";
+    import PageAnchorList from "$lib/components/PageAnchorList.svelte";
 </script>
 
 <svelte:head>
@@ -51,7 +55,7 @@
     </ImageArticle>
 </Background>
 
-<Background
+<!-- <Background
     color="#43a485"
     image={[Blob2, PatchSvg, ArrowRotatedSvg]}
     repeat="no-repeat"
@@ -62,16 +66,16 @@
             Pembullyan bukan hanya menyakiti hati, tetapi juga menggerus semangat belajar siswa. Kondisi psikologis yang terganggu membuat konsentrasi berkurang dan motivasi belajar memudar. Setiap anak berhak mendapatkan lingkungan belajar yang kondusif tanpa rasa takut dan tekanan.
         </TextBig>
     </ImageArticle>
-</Background>
+</Background> -->
 
-<Article --bg-color="#cf65e1">
+<Article --bg-color="#e7331a" --font-color="white">
     <TopBottomPad>
         <EvenBox --lbox-size="3fr" --mobile-rbox-size="2fr" --mobile-gap="2px">
             <GridBox --justify="center">
                 <BullyPercentage></BullyPercentage>
             </GridBox>
             <GridBox --align="center">
-                <TextBig>41% siswa berusia 15 tahun pernah mengalami pembullyian setidaknya beberapa kali dalam sebulan, menurut studi PISA (Programme for International Student Assessment) pada tahun 2018.</TextBig>
+                <TextMedium>41% siswa berusia 15 tahun pernah mengalami pembullyian setidaknya beberapa kali dalam sebulan, menurut studi PISA (Programme for International Student Assessment) pada tahun 2018.</TextMedium>
             </GridBox>
         </EvenBox>
     </TopBottomPad>
@@ -79,30 +83,22 @@
 
 <Background
     repeat="no-repeat"
-    size="cover">
-    <Article>
-        <TopBottomPad --padding="200px">
-            <EvenBox>
-                <GridBox>
-                    <HMargin --margin="20px">
-                        <Brand --max-font-size="3rem"></Brand>
-                        <TextMedium>Kami akan berupaya keras untuk mencegah masalah pembullyan sebelum terjadi dengan memberikan pendidikan baik siswa maupun guru tentang dampak negatif dari pembullyan itu sendiri.</TextMedium>
-                    </HMargin>
-                </GridBox>
-                <div>
-                    <Logo></Logo>
-                </div>
-            </EvenBox>
-        </TopBottomPad>
-    </Article>
+    size="cover"
+    color="#0070a1">
+    <ImageArticle src={FabLogo} --width="500px">
+        <HMargin --margin="20px">
+            <Brand --max-font-size="3rem"></Brand>
+            <TextMedium>Kami akan berupaya keras untuk mencegah masalah pembullyan sebelum terjadi dengan memberikan pendidikan baik siswa maupun guru tentang dampak negatif dari pembullyan itu sendiri.</TextMedium>
+        </HMargin>
+    </ImageArticle>
 </Background>
 
 <Background
-    color="#214df9">
-    <ImageArticle src={InterviewIllust} reverse={true} --image-width="700px">
-        <TopBottomPad>
+    color="#0d98b9">
+    <ImageArticle src={InterviewIllust} reverse={true} --width="700px" --font-color="white">
+        <TopBottomPad --padding="60px">
             <TextMedium>
-                Melalui serangkaian kegiatan seperti seminar, pelatihan, dan pembuatan video wawancara, kami ingin menanamkan kesadaran bahwa perbuatan menyakiti orang lain tidak hanya berdampak pada korban, tetapi juga pada pelaku dan komunitas sekolah sebagai keseluruhan.
+                Dan juga melalui serangkaian kegiatan seperti seminar, pelatihan, dan pembuatan video wawancara, kami ingin menanamkan kesadaran bahwa perbuatan menyakiti orang lain tidak hanya berdampak pada korban, tetapi juga pada pelaku dan komunitas sekolah sebagai keseluruhan.
             </TextMedium>
         </TopBottomPad>
     </ImageArticle>

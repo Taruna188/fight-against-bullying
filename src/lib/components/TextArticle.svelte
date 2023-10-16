@@ -5,10 +5,10 @@
 
 <style>
     div {
-        padding: 100px 0;
+        padding: 100px 100px;
     }
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1200px) {
         div {
             padding: 60px 0;
         }

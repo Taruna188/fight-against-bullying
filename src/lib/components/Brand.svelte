@@ -19,12 +19,12 @@
         padding: 0 6px 2px 4px;
     }
 
-    @media (prefers-color-scheme: dark) {
+    /* @media (prefers-color-scheme: dark) { */
         #body {
             background: white;
             color: black;
         }
-    }
+    /* } */
 
 </style>
 

@@ -3,10 +3,31 @@
 		"src/routes/+layout.ts",
 		"src/routes/+layout.ts"
 	],
-	"/about-us": [
+	"/hasil-wawancara": [
 		"src/routes/+layout.ts"
 	],
-	"/people-involved": [
+	"/perpustakaan": [
+		"src/routes/+layout.ts"
+	],
+	"/perpustakaan/apa-itu-bullying": [
+		"src/routes/+layout.ts"
+	],
+	"/perpustakaan/apa-penyebab-bullying": [
+		"src/routes/+layout.ts"
+	],
+	"/perpustakaan/cara-mengendalikan-pembullyian": [
+		"src/routes/+layout.ts"
+	],
+	"/perpustakaan/dampak-bullying-bagi-korban": [
+		"src/routes/+layout.ts"
+	],
+	"/perpustakaan/statistika-bullying": [
+		"src/routes/+layout.ts"
+	],
+	"/tentang-kami": [
+		"src/routes/+layout.ts"
+	],
+	"/tokoh-wawancara": [
 		"src/routes/+layout.ts"
 	]
 }

@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<!-- <link rel="icon" href="%sveltekit.assets%/favicon.png" /> -->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="color-scheme" content="dark light" />
+		<meta name="color-scheme" content="dark" />
 		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,6 +33,24 @@
 				font-family: var(--font-body);
 				font-size: 18px;
 			}
+
+			button {
+				all: unset;
+				cursor: pointer;
+				border: solid darkslategray 2px;
+				border-radius: 10px;
+			}
+
+			/* @media (prefers-color-scheme: dark) { */
+				button {
+					background-color: var(--bg-front);
+					backdrop-filter: opacity(50%);
+				}
+
+				button:hover {
+					backdrop-filter: opacity(20%);
+				}
+			/* } */
 		</style>
 
 		%sveltekit.head%

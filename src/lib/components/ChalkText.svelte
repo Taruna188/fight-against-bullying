@@ -4,6 +4,7 @@
         font-family: Chalkboy;
         font-weight: normal;
         font-size: 130px;
+        color: white;
     }
 </style>
 

@@ -7,7 +7,7 @@
         gap: var(--gap, 4cm);
     }
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 900px) {
         div {
             grid-template-rows: var(--mobile-lbox-size, 5fr) var(--mobile-rbox-size, 5fr);
             grid-template-columns: none;

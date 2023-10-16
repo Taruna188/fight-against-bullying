@@ -10,12 +10,21 @@
     import Article from "$lib/components/Article.svelte";
     import MediumTextBody from "$lib/components/TextMedium.svelte";
     import Background from "$lib/components/Background.svelte";
+    import PersonCard from "$lib/components/PersonCard.svelte";
+    import PersonSection from "$lib/components/PersonSection.svelte";
+    import PersonSectionList from "$lib/components/PersonSectionList.svelte";
+
+    import AzkaA from "$lib/assets/azka-nuran-ardiansyah.jpg";
+    import RifatA from "$lib/assets/rifat-agung-mulia.jpg";
+    import YatnaF from "$lib/assets/yatna-firdaus-hidayat.jpg";
+    import RayhanS from "$lib/assets/rayhan-setiawan.jpg";
+    import TitlePage from "$lib/components/TitlePage.svelte";
 </script>
 
 <Background
     image={ChalkboardBackground}
     size="cover">
-    <Article>
+    <Article --font-color="white">
         <TopBottomPad>
             <HMargin>
                 <Brand --max-font-size="3rem"></Brand>
@@ -38,3 +47,32 @@
         </TopBottomPad>
     </Article>
 </Background>
+
+<Article --bg-color="#22272e">
+    <TopBottomPad>
+        <PersonSectionList>
+            <TitlePage>
+                Anggota Kelompok
+            </TitlePage>
+            <PersonSection
+                name="Azka Nuran Ardiansyah"
+                description="Anggota Kelompok, Pewawancara"
+                src={AzkaA}></PersonSection>
+            <PersonSection
+                name="Rifat Agung Mulia"
+                description="Anggota Kelompok, Pewawancara"
+                src={RifatA}></PersonSection>
+            <PersonSection
+                name="Rayhan Setiawan"
+                description="Anggota Kelompok, Video Editor"
+                src={RayhanS}></PersonSection>
+            <PersonSection
+                name="Taruna Prasetya"
+                description="Anggota Kelompok, Website Designer"></PersonSection>
+            <PersonSection
+                name="Yatna Firdaus Hidayat"
+                description="Anggota Kelompok, Social Media Promoter"
+                src={YatnaF}></PersonSection>
+        </PersonSectionList>
+    </TopBottomPad>
+</Article>

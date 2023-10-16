@@ -15,6 +15,7 @@
     @media screen and (max-width: 1200px) {
         #body {
             grid-template-columns: auto auto;
+            gap: 10px;
         }
     }
 
