@@ -13,7 +13,7 @@
 </script>
 
 <style>
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1400px) {
         iframe {
             width: 360px;
             height: 240px;
@@ -36,7 +36,7 @@
 <Background>
     <Article --bg-color="#e7331a" --font-color="white">
         <TopBottomPad>
-            <EvenBox --lbox-size="3fr" --mobile-rbox-size="2fr" --mobile-gap="2px">
+            <EvenBox --lbox-size="3fr" --mobile-rbox-size="2fr" --laptop-gap="2.6cm" --mobile-gap="2px">
                 <GridBox --justify="center">
                     <iframe title="opening video wawancara" src="https://drive.google.com/file/d/1UboIWXaCDyKj1ZZxBqJInNHDYuwe_la6/preview" width="740" height="480" allow="autoplay" allowfullscreen></iframe>
                 </GridBox>
@@ -54,7 +54,7 @@
 <Background>
     <Article --bg-color="#de9e46" --font-color="white">
         <TopBottomPad>
-            <EvenBox --lbox-size="3fr" --mobile-rbox-size="3fr" --mobile-gap="2px">
+            <EvenBox --lbox-size="3fr" --mobile-rbox-size="3fr" --laptop-gap="2.6cm" --mobile-gap="2px">
                 <GridBox --align="center">
                     <h1>Wawancara Pak Reja</h1>
                     <TextMedium>
@@ -72,7 +72,7 @@
 <Background>
     <Article --bg-color="#cd4f41" --font-color="white">
         <TopBottomPad>
-            <EvenBox --lbox-size="3fr" --mobile-rbox-size="3fr" --mobile-gap="2px">
+            <EvenBox --lbox-size="3fr" --mobile-rbox-size="3fr" --laptop-gap="2.6cm" --mobile-gap="2px">
                 <GridBox --align="center">
                     <h1>Wawancara Taruna Prasetya</h1>
                     <TextMedium>

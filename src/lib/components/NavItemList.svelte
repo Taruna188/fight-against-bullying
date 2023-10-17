@@ -19,6 +19,7 @@
         }
 
         div {
+            gap: 0;
             position: absolute;
             top: 80px;
             z-index: 10;
@@ -26,6 +27,7 @@
             width: 300px;
             grid-auto-flow: row;
             border-radius: 18px;
+            border: solid darkslategray 2px;
         }
     }
 

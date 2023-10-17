@@ -31,26 +31,23 @@
 
 <Header>
     <Navbar>
-        <NavButton on:click={() => {
-            navitemMobileDisplay = !navitemMobileDisplay
-            console.log(navitemMobileDisplay)    
-        }}></NavButton>
+        <NavButton on:click={() => navitemMobileDisplay = !navitemMobileDisplay}></NavButton>
         <NavBrand></NavBrand>
         <NavItemList bind:mobileDisplay={navitemMobileDisplay}>
-            <NavItem>
-                <NavLink href="{base}/perpustakaan/apa-itu-bullying">Apa itu Bullying?</NavLink>
+            <NavItem href="{base}/perpustakaan/apa-itu-bullying">
+                <NavLink>Apa itu Bullying?</NavLink>
             </NavItem>
-            <NavItem>
-                <NavLink href="{base}/perpustakaan/dampak-bullying-bagi-korban">Dampak Bullying</NavLink>
+            <NavItem href="{base}/perpustakaan/dampak-bullying-bagi-korban">
+                <NavLink>Dampak Bullying</NavLink>
             </NavItem>
-            <NavItem>
-                <NavLink href="{base}/hasil-wawancara">Hasil Wawancara</NavLink>
+            <NavItem href="{base}/hasil-wawancara">
+                <NavLink>Hasil Wawancara</NavLink>
             </NavItem>
-            <NavItem>
-                <NavLink href="{base}/tokoh-wawancara">Tokoh Wawancara</NavLink>
+            <NavItem href="{base}/tokoh-wawancara">
+                <NavLink>Tokoh Wawancara</NavLink>
             </NavItem>
-            <NavItem>
-                <NavLink href="{base}/tentang-kami">Tentang Kami</NavLink>
+            <NavItem href="{base}/tentang-kami">
+                <NavLink>Tentang Kami</NavLink>
             </NavItem>
         </NavItemList>
     </Navbar>

@@ -20,6 +20,12 @@
         background: violet;
         transition: height 0.2s, border-radius 0.2s;
     }
+
+    @media screen and (max-width: 900px) {
+        #underline {
+            display: none;
+        }
+    }
 </style>
 
 <a id="body" {href}>
